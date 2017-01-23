@@ -11,6 +11,13 @@ namespace UoW.Data.Configuration
             Property(g => g.Name).IsRequired().HasMaxLength(50);
             Property(g => g.Price).IsRequired().HasPrecision(8, 2);
             Property(g => g.CategoryID).IsRequired();
+
+            HasRequired<Category>(g => g.Category)
+                .WithMany(g => g.Gadgets);
+                
+
+
+            
         }
     }
 }
