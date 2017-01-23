@@ -9,6 +9,8 @@
         public string Image { get; set; }
 
         public int CategoryID { get; set; }
+
+        public string AnotherCol { get; set; }
         public Category Category { get; set; }
     }
 }

@@ -48,6 +48,10 @@
     <Compile Include="Migrations\201701232105432_firstmigration.Designer.cs">
       <DependentUpon>201701232105432_firstmigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201701232128099_anothermigration.cs" />
+    <Compile Include="Migrations\201701232128099_anothermigration.Designer.cs">
+      <DependentUpon>201701232128099_anothermigration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Repositories\GadgetRepo.cs" />
     <Compile Include="Infrastructure\DbFactory.cs" />
@@ -75,6 +79,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201701232105432_firstmigration.resx">
       <DependentUpon>201701232105432_firstmigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701232128099_anothermigration.resx">
+      <DependentUpon>201701232128099_anothermigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
