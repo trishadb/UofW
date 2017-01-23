@@ -1,0 +1,6 @@
+﻿============ ABOUT UoW.Model ============
+*** This layer is where we ‘ll keep all of our domain objects. 
+*** Entity Framework will need them in order to build the database.
+*** We are not going to configure Code First using DataAnnotations attributes on this project. 
+*** Instead, we are going to put all the Code First configuration in specific Configuration classes using the Fluent API.
+=================================
