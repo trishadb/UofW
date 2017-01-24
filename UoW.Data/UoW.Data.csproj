@@ -48,6 +48,10 @@
     <Compile Include="Migrations\201701232105432_firstmigration.Designer.cs">
       <DependentUpon>201701232105432_firstmigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201701232128099_anothermigration.cs" />
+    <Compile Include="Migrations\201701232128099_anothermigration.Designer.cs">
+      <DependentUpon>201701232128099_anothermigration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\201701241429000_AddCol.cs" />
     <Compile Include="Migrations\201701241429000_AddCol.Designer.cs">
       <DependentUpon>201701241429000_AddCol.cs</DependentUpon>
@@ -80,6 +84,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201701232105432_firstmigration.resx">
       <DependentUpon>201701232105432_firstmigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701232128099_anothermigration.resx">
+      <DependentUpon>201701232128099_anothermigration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201701241429000_AddCol.resx">
       <DependentUpon>201701241429000_AddCol.cs</DependentUpon>

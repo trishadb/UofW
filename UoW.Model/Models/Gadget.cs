@@ -12,6 +12,8 @@ namespace UoW.Model.Models
         public DateTime DateAdded { get; set; }
 
         public int CategoryID { get; set; }
+
+        public string AnotherCol { get; set; }
         public Category Category { get; set; }
     }
 }
