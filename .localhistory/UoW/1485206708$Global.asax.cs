@@ -11,6 +11,11 @@ namespace UoW
     {
         protected void Application_Start()
         {
+
+
+            // Init database
+            System.Data.Entity.Database.SetInitializer(new StoreSeedData());
+
             // Code that runs on application startup
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);

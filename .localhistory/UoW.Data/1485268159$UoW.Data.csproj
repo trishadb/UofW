@@ -48,10 +48,6 @@
     <Compile Include="Migrations\201701232105432_firstmigration.Designer.cs">
       <DependentUpon>201701232105432_firstmigration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201701241429000_AddCol.cs" />
-    <Compile Include="Migrations\201701241429000_AddCol.Designer.cs">
-      <DependentUpon>201701241429000_AddCol.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Repositories\GadgetRepo.cs" />
     <Compile Include="Infrastructure\DbFactory.cs" />
@@ -80,9 +76,6 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201701232105432_firstmigration.resx">
       <DependentUpon>201701232105432_firstmigration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201701241429000_AddCol.resx">
-      <DependentUpon>201701241429000_AddCol.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

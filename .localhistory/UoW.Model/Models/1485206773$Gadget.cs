@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace UoW.Model.Models
+﻿namespace UoW.Model.Models
 {
     public class Gadget
     {
@@ -9,7 +7,6 @@ namespace UoW.Model.Models
         public string Description { get; set; }
         public decimal Price { get; set; }
         public string Image { get; set; }
-        public DateTime DateAdded { get; set; }
 
         public int CategoryID { get; set; }
         public Category Category { get; set; }
